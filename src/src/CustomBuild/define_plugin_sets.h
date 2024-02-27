@@ -1408,6 +1408,8 @@ To create/register a plugin, you have to :
   #define KEEP_I2C_MULTIPLEXER
 #endif
 
+#define USES_P200
+
 // COLLECTIONS #####################################
 #ifdef PLUGIN_SET_COLLECTION
     #define USES_P045   // MPU6050
